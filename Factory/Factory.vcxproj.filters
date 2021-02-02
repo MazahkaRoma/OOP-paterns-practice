@@ -39,6 +39,12 @@
     <ClCompile Include="Factory.cpp">
       <Filter>Factory\Cpp</Filter>
     </ClCompile>
+    <ClCompile Include="EnemyAbstract.cpp">
+      <Filter>Enemies\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Dragon.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Factory.h">

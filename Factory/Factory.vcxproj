@@ -140,6 +140,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="app.cpp" />
+    <ClCompile Include="Dragon.cpp" />
+    <ClCompile Include="EnemyAbstract.cpp" />
     <ClCompile Include="Factory.cpp" />
   </ItemGroup>
   <ItemGroup>
