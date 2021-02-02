@@ -44,7 +44,13 @@
     <ClInclude Include="Factory.h">
       <Filter>Factory\Header</Filter>
     </ClInclude>
-    <ClInclude Include="IEnemy.h">
+    <ClInclude Include="Dragon.h">
+      <Filter>Enemies\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyTypes.h">
+      <Filter>Enemies\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyAbstract.h">
       <Filter>Enemies\Headers</Filter>
     </ClInclude>
   </ItemGroup>
