@@ -2,19 +2,19 @@
 //
 
 #include <iostream>
-#include "Factory.h"
-#include "FactoryClasses.h"
+#include "EnemyAbstract.h"
+#include "EnemiesFactory.h"
 #include <vector>
 
 int main()
 {
-    Factory f = Factory();
-    std::vector<I*> returnV = f.CreateObjects();
-    for (size_t i = 0; i < returnV.size(); i++)
+    EnemyFactory* factory = new EnemyFactory();
+    std::vector<Enemy*> Enemies = factory->CreateEnemies(EnemyFactory::Dificulty::MIDL);
+    for (size_t i = 0; i < 10; i++)
     {
-        returnV[i]->Test();
-        delete returnV[i];
+        std::cout<<Enemies[i]->GetType()<<std::endl;
     }
+    
     system("pause");
 }
 

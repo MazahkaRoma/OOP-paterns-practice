@@ -1,7 +1,7 @@
 #pragma once
 #include "EnemyAbstract.h"
 
-class Goblin : Enemy
+class Goblin : public Enemy
 {
 public:
 	Goblin(std::string Name);

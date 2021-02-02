@@ -3,7 +3,5 @@
 enum class EnemyTypes
 {
 	Dragon,
-	Goblin,
-	Thiev,
-	ArrmoredKnight
+	Goblin
 };
