@@ -43,7 +43,7 @@
       <Filter>Enemies\Cpp</Filter>
     </ClCompile>
     <ClCompile Include="Dragon.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Enemies\Cpp</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
