@@ -142,13 +142,15 @@
     <ClCompile Include="app.cpp" />
     <ClCompile Include="Dragon.cpp" />
     <ClCompile Include="EnemyAbstract.cpp" />
-    <ClCompile Include="Factory.cpp" />
+    <ClCompile Include="EnemiesFactory.cpp" />
+    <ClCompile Include="Goblin.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dragon.h" />
     <ClInclude Include="EnemyTypes.h" />
-    <ClInclude Include="Factory.h" />
+    <ClInclude Include="EnemiesFactory.h" />
     <ClInclude Include="EnemyAbstract.h" />
+    <ClInclude Include="Goblin.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
