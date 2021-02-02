@@ -141,11 +141,10 @@
   <ItemGroup>
     <ClCompile Include="app.cpp" />
     <ClCompile Include="Factory.cpp" />
-    <ClCompile Include="FactoryClasses.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Factory.h" />
-    <ClInclude Include="FactoryClasses.h" />
+    <ClInclude Include="IEnemy.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

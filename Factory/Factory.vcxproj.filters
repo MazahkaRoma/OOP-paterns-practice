@@ -22,13 +22,19 @@
     <Filter Include="Factory\Header">
       <UniqueIdentifier>{a110977c-b780-4af5-92df-92054bb03273}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Enemies">
+      <UniqueIdentifier>{09683882-d66b-4b56-ad50-84230f0fe90b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemies\Headers">
+      <UniqueIdentifier>{5b83bbdb-f547-43bb-8d8a-d406dde578cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enemies\Cpp">
+      <UniqueIdentifier>{41b3dcfb-9aed-4c9f-85ca-682605cb9eca}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="app.cpp">
       <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="FactoryClasses.cpp">
-      <Filter>Factory\Cpp</Filter>
     </ClCompile>
     <ClCompile Include="Factory.cpp">
       <Filter>Factory\Cpp</Filter>
@@ -38,8 +44,8 @@
     <ClInclude Include="Factory.h">
       <Filter>Factory\Header</Filter>
     </ClInclude>
-    <ClInclude Include="FactoryClasses.h">
-      <Filter>Factory\Header</Filter>
+    <ClInclude Include="IEnemy.h">
+      <Filter>Enemies\Headers</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

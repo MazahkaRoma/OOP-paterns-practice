@@ -1,5 +1,5 @@
 #pragma once
-#include "FactoryClasses.h"
+
 #include <vector>
 
 class Factory
@@ -7,6 +7,6 @@ class Factory
 public:
 	Factory() = default;
 
-	std::vector<I*> CreateObjects();
+	std::vector<int> CreateObjects();
 
 };
